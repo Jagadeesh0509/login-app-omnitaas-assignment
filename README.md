@@ -6,7 +6,7 @@ This repository contains a simple login application built with **React (frontend
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 login-app/
@@ -70,7 +70,7 @@ http://localhost:3000
 
 ---
 
-# 🧑‍💻 Usage
+# Usage
 
 1. Open your browser and go to:
 
@@ -141,7 +141,7 @@ https://login-app-omnitaas-assignment.onrender.com
 
 ---
 
-# 🌍 Deploy Frontend (Vercel)
+#  Deploy Frontend (Vercel)
 
 1. Go to **vercel.com**
 
@@ -178,7 +178,7 @@ https://login-app-omnitaas-assignment.vercel.app
 
 ---
 
-# 🔗 Connecting Frontend to Backend
+#  Connecting Frontend to Backend
 
 Update the API URL in `Login.js`.
 
@@ -217,7 +217,7 @@ This allows the server to run both locally and on Render.
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 ```
 React Frontend (Vercel)
