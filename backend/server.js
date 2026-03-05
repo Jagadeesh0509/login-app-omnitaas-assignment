@@ -17,10 +17,10 @@ const loginLimiter = rateLimit({
     message: 'Too many login attempts, please try again later'
 });
 
-// Mock database of users with hashed passwords
+
 let users = [];
 
-// Initialize users with hashed passwords on startup
+
 async function initializeUsers() {
     const hashedPassword = await bcrypt.hash('admin', 10);
     users = [
@@ -28,7 +28,7 @@ async function initializeUsers() {
     ];
 }
 
-// Helper function to find user by username
+
 function getUserFromDatabase(username) {
     return users.find(user => user.username === username);
 }

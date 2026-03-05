@@ -9,7 +9,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // prefill username and redirect if already authenticated
+        //get usernmae redirect if already authenticated
         const stored = localStorage.getItem('username');
         if (stored) {
             setUsername(stored);
@@ -21,7 +21,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post('http://localhost:5000/login', { username, password });
+            const res = await axios.post('https://login-app-omnitaas-assignment.onrender.com/login', { username, password });
             if (res.status === 200) {
                 localStorage.setItem('username', username);
                 // replace history entry so back button won't return to login
