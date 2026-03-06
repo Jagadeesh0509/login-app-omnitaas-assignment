@@ -1,6 +1,21 @@
 # Login Application
 
+
+### Deployment & Testing Note
+
+This project is deployed using **Render Free Web Service**.
+Render’s free tier automatically puts backend services to **sleep after 15 minutes of inactivity**. When the application receives a new request after being idle, the server needs a short **cold start** period to wake up, which may take **30–60 seconds**.
+
+If the API appears unresponsive at first, please wait a few seconds and refresh the request while the service initializes.
+
+For a smoother testing experience, reviewers can run the project locally by cloning the repository or by using **GitHub Codespaces**, which provides a cloud-based development environment to run the project directly in the browser without installing dependencies locally.
+
+
 # LIVE https://login-app-omnitaas-assignment.vercel.app/login
+
+
+
+
 
 This repository contains a simple login application built with **React (frontend)** and **Node.js with Express (backend)**.
 
